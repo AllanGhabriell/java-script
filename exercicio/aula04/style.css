@@ -1,0 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: gray;
+    background-image: url(https://img.freepik.com/fotos-premium/resumo-luxo-desfocar-gradiente-cinza-escuro-e-preto-usado-como-parede-de-estudio-de-fundo-para-exibir-seu-pr_1258-52538.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, orange, rgb(255, 213, 2));
+    border-radius: 100px;
+    padding: 60px;
+    font-size: 75px;
+    color: white;
+    max-width: 1200px;
+    min-width: 200px;
+}
+h1:hover {
+    background-image: linear-gradient(to right, blue, rgb(0, 94, 255));
+    color: white;
+    border-radius: 100px;
+    transition-duration: 0.5s;
+    padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1:active {
+    background-image: linear-gradient(to right, yellow, rgb(212, 255, 0));
+    color: black;
+    font-family: monospace;
+}
