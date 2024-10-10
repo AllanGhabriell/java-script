@@ -22,6 +22,8 @@ main {
     max-width: 800px;
     margin: auto;
     padding-bottom: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 div {
     text-align: center;
