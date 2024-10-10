@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que país?</title>
+</head>
+<body>
+    <h1>Oq c é?</h1>
+    <input type="text" id="país">
+    <button onclick="clica()">Clica</button>
+    <div id="res">Resultado</div>
+    <script>
+        function clica() {
+            var txtpaís = document.getElementById('país')
+            // var país = document.getElementById('país').value
+            var res = document.getElementById('res')
+            var país = txtpaís.value
+            if (país != 'Brasil') {
+                res.innerHTML = 'Ih ala gringow kakakf'
+            } else {
+                res.innerHTML = 'Que mamago gostosooooooooioo'
+            }
+        }
+    </script>
+</body>
+</html>
